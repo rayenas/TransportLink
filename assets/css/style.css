@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+   scroll-padding-top: 2rem;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 69vh;
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+.banner2{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #f8f8fa;
+}
+
+.banner3{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: #f8f8fa;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12%;
+    background-color: #fff;
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     z-index: 100;
+    
+}
+.logo{
+    width: 73px;
+    cursor: pointer;
+    position: relative;
+    left: 90px;
+    top: -32px;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 60px;
+    position: relative;
+    top: -20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+.navbar ul li a:hover{
+    color: #f7770f;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #f7770f;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+    
+}
+.navbar ul li:hover::after{
+    width: 100%;
+    
+} 
+#c1{
+  width: 100%;
+  height: 440px;
+  background: url("assets/image/YOUR TRUSTED BUS COMPANY.jpg") center top no-repeat;
+    background-size: cover;
+    padding: 0 0 0.4rem;
+    color: #fff;
+}
+
+h1{
+    position: relative;
+    left: 36%;
+    top: 15%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+}
+/*2222222222222222222222222*/
+
+#c3{
+  background-color: #fff;
+  width: 60%;
+
+}
+video{
+  width: 548px;
+  position: relative;
+  left: 184px;
+}
+
+/*footer*/
+
+.footer{
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 0px 0 0px;
+}
+.footer h3{
+  color: #fff;
+}
+.footer p{
+  color: #8a8a8a;
+  margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3,.footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.footer-col-1{
+  flex-basis: 30%;
+}
+.footer-col-2{
+  flex: 1;
+  text-align: center;
+}
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom: 20px;
+ 
+}
+.footer-col-3,.footer-col-4{
+  flex-basis: 12%;
+  text-align: center;
+}
+footer ul{
+  list-style-type: none;
+}
+.app-logo img{
+  width: 280px;
+}
+.app-logo{
+  margin-top: 20px;
+}
+.footer hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright{
+  text-align: center;
+}
